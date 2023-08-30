@@ -1,0 +1,41 @@
+.head{
+
+  text-align: center;
+
+}
+header{
+
+background-color: aqua;
+padding: 45px;
+text-align: center;
+}
+section{
+  
+  display: flex;
+}
+nav ul{
+  
+  padding: 90px;
+
+  
+}
+nav {
+ 
+  flex:1;
+  background: #ccc;
+  padding:40px;
+}
+
+
+
+article {
+ 
+  flex: 4;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+footer{
+  background-color:bisque;
+  text-align: center;
+  padding: 40px;
+}

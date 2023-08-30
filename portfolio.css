@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+  
+}
+body{
+  background-color: #E8E8E8;
+}
+nav{
+  background-color: FFF8F3;
+  display: flex;
+  justify-content: space-between;
+
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-top: 20px;
+  padding-right: 220px;
+}
+nav h2{
+  font-size: 45px;
+  padding-left: 243px;
+  margin-top: 51px;
+}
+nav span{
+  color: #FD6E0A;
+}
+.bttn1{
+  background-color: #FD6E0A;
+  color:white;
+  border: none;
+  width: 150px;
+  height: 64px;
+}
+header{
+  background-color: #FFF8F3;
+
+}
+header{
+  background-image: url('/Profect_Images/Group\ 12\ \(1\).png');
+  background-repeat: no-repeat;
+  background-size:800px 450px;
+  background-position:right bottom,30px 50px;
+}
+
+.container{
+  display:flex;
+  align-items: center;
+}
+.content-details{
+  text-align:left;
+  padding-left: 230px;
+}
+.content-details>p{
+
+text-align: left;
+}
+.content-details>h1{
+  padding-right: 125px;
+  }
+  .content-details>h3{
+    padding-right: 225px;
+    }
+.container>.imageman{
+  padding-right: 50px;
+}
+.container-details p{
+  max-width: 585px;
+}
+.bttn2{
+  color:White;
+  background-color: #FD6E0A;
+  border: none;
+  width: 150px;
+  height: 64px;
+  font: bold;
+  font-size: 20px;
+  margin-right:10px;
+
+}
+.bttn3{
+  color:#FD6E0A;
+  background-color:transparent;
+  border:1px orange solid;
+  width: 150px;
+  height: 64px;
+  font: bold;
+  font-size: 20px;
+}
+main{
+  background-color: #ffecde;
+  width:1400px;
+  height: 468px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.about{
+  padding: 124px  295px 20px 272px ;
+  text-align: center;
+  max-width: 827px;
+}
+.about p{
+  padding-top: 30px;
+}
+.info{
+
+  display: flex;
+  gap: 20px;
+  padding-left: 420px;
+}
+.ido{
+  text-align: center;
+  max-width:827px ;
+  padding-left:350px;
+
+}
+.box{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.java{
+  width: 270px;
+  background-color: rgb(255, 255, 255);
+  
+}
+.java>h2{
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+
+}
+.React>h2{
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+
+}
+.node>h2{
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+
+}
+.mongo>h2{
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+
+}
+.java>p{
+  max-width: 150px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+.React>p{
+  max-width: 150px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+.node>p{ max-width: 150px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+.mongo>p{
+  max-width: 150px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.React{
+  width: 270px;
+  background-color: rgb(255, 255, 255);
+}
+.node{
+  width: 270px;
+  background-color: rgb(255, 255, 255);
+}
+.mongo{
+  width: 270px;
+  background-color: rgb(255, 255, 255);
+}
+.eduex{
+  display: flex;
+  width: 1300px;
+  justify-content:space-evenly;
+  gap: 50px;
+  text-align: left;
+  margin: auto;
+}
+.edu{
+  max-width: 200px;
+}
+.exp{
+  max-width: 200px;
+}
+.h{
+  text-align: center;
+}
+footer{
+  display: flex;
+  background-color: #ffecde;
+  
+
+  width: 1300px;
+  justify-content:space-evenly;
+  margin: auto;
+}
+.con{
+  max-width: 490px;
+}
