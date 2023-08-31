@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="/portfolio.css">
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css>
 </head>
 
 <body>
@@ -14,22 +15,24 @@
     <nav>
       <h2>Ma<span>r</span>y</h2>
       <ul>
-        <li>Portfolio</li>
-        <li>Blog</li>
-        <li><button class="bttn1">Hire ME</button></li>
+
+        <li><a href="https://www.goole.com" target="_blank">Portfolio</a></li>
+        <li><a href="https://www.goole.com" target="_blank">Blog</a></li>
+        <li><button type="button" class="bttn1"> Hire ME</a></button></li>
       </ul>
     </nav>
-    <div>
-      <img src="/Profect_Images/Developer.png" alt="" height="600px" width="100px">
-    </div>
+
     <div class="container">
+      <div class="devimg">
+        <img src="/Profect_Images/Developer.png" alt="" height="600px" width="100px">
+      </div>
       <div class="content-details">
-        <h3>Hi, I am</h3>
+        <h2>Hi, I am</h2>
         <h1>Hardy Mary</h1>
         <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved
           moments.</p>
-        <button class="bttn2">Download CV</button>
-        <button class="bttn3">Contact</button>
+        <button class="bttn2"><i class="fa-solid fa-arrow-down"></i> Download CV</button>
+        <button class="bttn3"><i class="fa-solid fa-phone"></i> Contact</button>
       </div>
       <div class="imageman">
         <img src="./Profect_Images/1699492_P3OLGJ1 1.png" alt="">
@@ -39,14 +42,16 @@
   </header>
   <main>
     <div class="about">
-      <h1>
-        About me
-      </h1>
-      <p>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites
-        that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working
-        with
-        me. Delivering work within time and budget which meets clients requirements in our mata.</p>
-
+      <div class="about1">
+        <h1>
+          About me
+        </h1>
+        <p>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick
+          websites
+          that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working
+          with
+          me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+      </div>
 
     </div>
     <div class="info">
@@ -58,6 +63,7 @@
       <p>From: <br>Los Angeles, USA</p>
     </div>
   </main>
+
   <div class="ido">
     <h1>What i do</h1>
     <p>I have more than 10 years experience building software for clients all over the world. Below is a quick
@@ -67,24 +73,28 @@
 
   <div class="box">
     <div class="java">
+      <img src="./Profect_Images/logo-javascript 1.png" alt="">
       <h2>Javascript</h2>
       <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
         available. Aenean commodo ligula eget dolor.</p>
 
     </div>
     <div class="React">
+      <img src="./Profect_Images/Group.png" alt="">
       <h2>React</h2>
       <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
         available. Aenean commodo ligula eget dolor.</p>
 
     </div>
     <div class="node">
-      <h2>NodeJS</h2>
+      <img src="./Profect_Images/nodejs-icon 1.png" alt="">
+      <h2>Node.JS</h2>
       <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
         available. Aenean commodo ligula eget dolor.</p>
 
     </div>
     <div class="mongo">
+      <img src="./Profect_Images/mongo 1.png" alt="">
       <h2>MongoDB</h2>
       <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
         available. Aenean commodo ligula eget dolor.</p>
@@ -93,13 +103,10 @@
 
   </div>
   <div class="h">
-    <h1>A summary of My Resumeh</h1>
+    <h1>A summary of My Resume</h1>
   </div>
 
   <div class="eduex">
-
-
-
 
     <div class=edu>
       <h1>My Education</h1> <br>
@@ -150,21 +157,35 @@
         to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p> <br>
 
     </div>
+
   </div>
+  <div class="cb">
+    <button class="cv" type="button"><i class="fa-solid fa-arrow-down"></i> Download CV</button>
+  </div>
+
   <footer>
+
     <div class="con">
       <h1>Lets Connect</h1>
       <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday
         through Friday.</p>
+      <div class="icon">
+        <a class="fac" href="https://www.facebook.com" target=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="twt" href="https://www.twitter.com" target="_blank">
+          <i class="fa-brands fa-twitter"></i></a>
+        <a class="ins" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
     </div>
+
     <div class="msg">
       <h1>Let’s Message me</h1>
       <input type="text" name="name" id="name" placeholder="Your Name"><br>
       <input type="email" name="eml" id="eml" placeholder="Your Email"> <br>
-      <input type="text" name="msg" id="msg" placeholder="Message"> <br>
-      <button type="submit">Submit</button>
-
+      <input type="text" name="msgm" id="msgm" placeholder="Message"> <br>
+      <button class="sub" type="submit"> Submit</button>
     </div>
+
   </footer>
 </body>
 
